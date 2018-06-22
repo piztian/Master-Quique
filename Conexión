@@ -1,0 +1,13 @@
+<?php
+$host_name = 'db740526135.db.1and1.com';
+$database = 'db740526135';
+$user_name = 'dbo740526135';
+$password = 'Luker001919';
+$connect = mysqli_connect($host_name, $user_name, $password, $database);
+
+if (mysqli_connect_errno()) {
+    die('<p>Error al conectar con servidor MySQL: '.mysqli_connect_error().'</p>');
+} else {
+    echo '';
+}
+?>
